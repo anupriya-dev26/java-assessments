@@ -1,0 +1,74 @@
+1.Arithmetic operators
+
+    class ArithmeticOperator {
+    public static void main(String[] args) {
+        int a = 20, b = 10;
+
+        System.out.println("Sum = " + (a + b));
+        System.out.println("Difference = " + (a - b));
+        System.out.println("Product = " + (a * b));
+        System.out.println("Division = " + (a / b));
+    }
+}
+
+2.Relational operators 
+
+   class RelationalOperator {
+    public static void main(String[] args) {
+        int a = 20, b = 10;
+
+        System.out.println("Equal = " + (a == b));
+        System.out.println("Greater = " + (a > b));
+        System.out.println("Smaller = " + (a < b));
+    }
+}
+
+3.Assignment operators 
+
+   class AssignmentOperator {
+    public static void main(String[] args) {
+        int a = 20;
+
+        a += 5;
+        System.out.println("After += : " + a);
+
+        a -= 3;
+        System.out.println("After -= : " + a);
+
+        a *= 2;
+        System.out.println("After *= : " + a);
+
+        a /= 2;
+        System.out.println("After /= : " + a);
+    }
+}
+
+4. Student Marks Calculation
+
+   class StudentMarks {
+    public static void main(String[] args) {
+        int marks = 85;
+        double percentage = (double) marks / 100 * 100;
+
+        System.out.println("Marks = " + marks);
+        System.out.println("Percentage = " + percentage + "%");
+    }
+}
+
+5. Product Price Calculation
+
+   class ProductPrice {
+    public static void main(String[] args) {
+        double price = 999.50;
+        int quantity = 3;
+
+        double total = price * quantity;
+        double discount = total * 10 / 100;
+
+        total -= discount;
+
+        System.out.println("Total Price = " + (price * quantity));
+        System.out.println("Discount = " + discount);
+        System.out.println("Final Price = " + total);
+    }
+}
